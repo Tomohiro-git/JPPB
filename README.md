@@ -5,7 +5,7 @@ JPPB (Japanese Patient Phrase Bank) is a phrase-level resource for normalizing p
 
 Unlike traditional dictionaries that assume one-to-one mappings, JPPB captures the inherent ambiguity of patient language by providing both:
 
-- Hard labels: one-to-one mappings between expressions and canonical terms
-- Soft labels: one-to-many mappings with probabilistic scores
+- HardLabel.csv: one-to-one mappings between expressions and canonical terms
+- SoftLabel.csv: one-to-many mappings with probabilistic scores
 
 This design enables ambiguity-aware normalization and supports robust medical NLP applications in Japanese.
